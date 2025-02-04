@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
   // Flush after every printf
@@ -13,5 +14,6 @@ int main() {
   fgets(input, 100, stdin);
 
   printf("%s: command not found", input);
+
   return 0;
 }
