@@ -6,6 +6,7 @@ int main() {
 
   // Uncomment this block to pass the first stage
   printf("$ ");
+  printf("invalid_command: command not found");
 
   // Wait for user input
   char input[100];
